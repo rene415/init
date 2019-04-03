@@ -1,1 +1,1 @@
-ifconfig | grep -o '..:..:..:..:..:..'
+networksetup -getmacaddress en1 | grep -o '..:..:..:..:..'
