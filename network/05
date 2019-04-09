@@ -1,3 +1,4 @@
-nslookup www.slash16.org | grep Address | awk '{print $2}'
+nslookup www.slash16.org | grep Address | awk '{print $2}' | head -1 | awk -F '\\#' '{print$1}'
 #1st address authorative DNS IP
 #2nd Address Non-authorative DNS IP
+#nslookup www.slash16.org | grep Address | awk '{print $2}'
