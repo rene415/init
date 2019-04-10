@@ -1,1 +1,2 @@
+#traceroute allows to check all of the connects between yours and the host name
 traceroute www.slash16.org

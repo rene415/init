@@ -1,0 +1,3 @@
+#all DNS entries are found in the /etc/hosts 
+echo "/etc/hosts"
+cat /etc/hosts
