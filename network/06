@@ -1,0 +1,5 @@
+#This file resides on every DNS client
+#(including DNS servers) and designates
+#the servers that the client queries for DNS information.
+echo "/etc/resolv.conf"
+cat /etc/resolv.conf

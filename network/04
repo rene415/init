@@ -1,1 +1,2 @@
+#gets the default route with gateway value cuts of the values with awk
 route get default | grep gateway | awk '{print $2}'

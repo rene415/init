@@ -1,1 +1,2 @@
+# getmacaddress on en1 and greps only the items with the matching values
 networksetup -getmacaddress en1 | grep -o '..:..:..:..:..'

@@ -1,1 +1,2 @@
-ifconfig -a | sed -E 's/[[:space:]:].*//;/^$/d'
+#fetches all config sets and separates them using sed
+ifconfig | sed -E 's/[[:space:]:].*//;/^$/d'

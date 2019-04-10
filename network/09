@@ -1,0 +1,5 @@
+echo "The external addresses can be found with the nslookup and the non-authorative are the external IP Address"
+#163.172.250.13
+#163.172.250.11
+#163.172.250.12
+nslookup 42.fr | grep -o Address.* | awk '{if(NR>1)print}'| awk '{print$2}'

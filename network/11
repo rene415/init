@@ -1,0 +1,2 @@
+#Network address translation does the connection with the outside
+traceroute www.slash16.org | grep -m 1 nat

@@ -1,4 +1,5 @@
+# gets the ip address of the dns server of slash16
+#firstone gets the authorative
 nslookup www.slash16.org | grep Address | awk '{print $2}' | head -1 | awk -F '\\#' '{print$1}'
-#1st address authorative DNS IP
-#2nd Address Non-authorative DNS IP
-#nslookup www.slash16.org | grep Address | awk '{print $2}'
+#second gets the non-authorative
+nslookup www.slash16.org | grep Address | awk '{print $2}' | awk '{if(NR>1)print}'

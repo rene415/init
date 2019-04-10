@@ -1,1 +1,2 @@
-AWS
+#Amazon Web Server
+whois 52.218.36.52 | grep "OrgName"

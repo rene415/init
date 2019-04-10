@@ -1,0 +1,2 @@
+#inet represents IPv4 addressing assined by the DHCP Server
+ifconfig en0 | grep "inet " | awk '{print$2}'
