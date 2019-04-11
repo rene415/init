@@ -1,0 +1,2 @@
+#ip address taken from excersice 12 is taken to find the host name
+nslookup $(./12)| grep "name " | awk '{print$NF}'
