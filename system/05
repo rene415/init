@@ -1,0 +1,3 @@
+#systemctl - Control the systemd system and service manager
+#status flag for ssh
+sudo systemctl status ssh

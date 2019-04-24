@@ -1,0 +1,3 @@
+#To set system hostname on SystemD based distributions, we will use hostnamectl command as shown
+#hostnamectl - Control the system hostname
+sudo vi /etc/hostname

@@ -1,0 +1,3 @@
+#systemctl - Control the systemd system and service manager
+#using the restart flag for ssh
+sudo systemctl restart ssh
