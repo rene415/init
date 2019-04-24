@@ -1,1 +1,3 @@
-systemctl status ssh
+#the systemcl ssh gets the PID value or the process identification number
+#it is assaigned automatically to each process when it is created
+systemctl status ssh | grep PID | awk -F'[^0-9]*' '$0=$2'
