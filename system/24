@@ -1,0 +1,2 @@
+#dpkg the package manager for Debian
+dpkg --list

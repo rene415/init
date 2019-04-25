@@ -1,0 +1,3 @@
+#ssh into your own machine with the internal IP Address Localhost 127.0.0.1
+#connect to the host machine name with ssh <name_of_VM>@127.0.0.1 or  ssh <name_of_VM>@localhost
+ssh rene@127.0.0.1

@@ -1,0 +1,3 @@
+#all users on the VM are found in the /etc/passwd
+#clipped all the extra items and only taking the first match
+cat /etc/passwd | sed -E 's/[[:space:]:].*//;/^$/d'

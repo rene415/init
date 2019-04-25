@@ -1,0 +1,4 @@
+#the systemctl with list-units gets any running service
+#list-units gathers all units that are running active, have failed, or are pending
+#they are filtered by service flag
+systemctl list-units --type service

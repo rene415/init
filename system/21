@@ -1,0 +1,2 @@
+#all real users found on the VM can be found in the /home dir
+ls /home
