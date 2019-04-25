@@ -1,0 +1,6 @@
+#idk what to write
+#gesttings config tool
+#gsettings set [SCHEMA] <PATH>
+#backupurl http://i.imgur.com/2cy9I.png
+
+gsettings set org.gnome.desktop.background picture-uri https://grantland.com/wp-content/uploads/2013/09/grant_getty_nicolascagewywh_64011.jpg?w=750 && xdotool key super+d
