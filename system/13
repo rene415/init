@@ -1,0 +1,5 @@
+#ps command reports a snapshot of the current processes
+#a - Selects all processes
+#u - Selects all processes on a terminal, including those of other users
+#x - Selects processes without controlling ttys
+ps aux

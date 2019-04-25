@@ -1,0 +1,3 @@
+#killall kills the process by the name
+#killall <PID>
+killall tail

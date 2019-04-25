@@ -1,0 +1,3 @@
+#du command displays the estimate file space usage
+#sudo du --sumarize --human-readable /var/*
+sudo du -sh /var/*

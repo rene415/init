@@ -1,0 +1,4 @@
+#the df report file system disk space usage, shows the usage of the disks
+#using the -h flag or --human-readable flag it prints the sizes of to the power of 1024
+#sudo df --human-readable
+sudo df -h

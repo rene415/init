@@ -1,4 +1,5 @@
-#use the who - show who is logged on
+#use the who - shows who is logged on
 #using the -b or --boot flag shows the time of last system boot
 #using tr -d " " removes the extra spaces from the info retrieved
-who --boot | tr -d " "
+#who --boot | tr -d " "
+who -b | tr -d " "

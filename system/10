@@ -1,0 +1,5 @@
+#The fdisk command manipulates the disk partition table
+#to list all disk partition use the -l flag or --list
+#sudo is needed to look at the size of the partitions
+#sudo fdisk --list
+sudo fdisk -l

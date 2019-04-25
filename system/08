@@ -1,3 +1,4 @@
 #the public RSA keys are in the .ssh folder under the id_rsa.pub file
 #the private RSA keys are in the .ssh folder in the id_rsa file
+#~/.ssh/id_rsa.pub
 cat ~/.ssh/id_rsa.pub
