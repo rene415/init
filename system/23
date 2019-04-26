@@ -1,2 +1,2 @@
-#accessing the other accounts can be access with the su command with the username
+#accessing the other accounts can be access with the su command with the username su- switch user or become super user
 su [username]
